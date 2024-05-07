@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-	/* ¹è¿­ÀÇ ÃÊ±âÈ­ */
+	/* ë°°ì—´ì˜ ì´ˆê¸°í™” */
 		int array_[4] = { 10,20,30 };
 		for (int i = 0; i < 4; i++) {
 			printf("%d ", array_[i]);
