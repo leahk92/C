@@ -19,7 +19,17 @@ int main(void) {
 	printf("%d\n", size); // size : 6
 	
 	for (i = 0; i < size; i++) {
-		printf("%d ", score[i]);
-	}
+		printf("%d ", score[i]); 
+	} // 10 20 30 40 50 60
+
+	printf("\n");
+	int a[SIZE] = { 1,2,3,4,5 };
+	int b[SIZE];
+	for (i = 0; i < SIZE; i++) {
+		b[i] = a[i];
+		printf("%d ", b[i]);
+	} // 1 2 3 4 5
+
+
 	return 0;
 }
