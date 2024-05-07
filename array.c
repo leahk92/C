@@ -7,7 +7,7 @@ int main(void) {
 			printf("%d ", array_[i]);
 		}
 		printf("\n");
-		// 0 20 30 0
+		// 10 20 30 0
 
 		int array__[4] = { 0 };
 		for (int i = 0; i < 4; i++) {
