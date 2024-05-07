@@ -12,7 +12,7 @@ int main(void) {
 
 	/* sizeof 함수 : 메모리의 크기 값(바이트)을 알려줌 */
 	int score[] = { 10, 20, 30, 40, 50, 60 };
-	int size = sizeof(score) / sizeof(score[0]);
+	int size = sizeof(score) / sizeof(score[0]); //배열 원소 개수 자동 계산
 	// sizeof(score) : 24
 	// sizeof(score[0]) : 4
 	
