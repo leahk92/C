@@ -10,7 +10,7 @@ int main(void) {
 		printf("s[%d] = %d\n",i,s[i]);
 	}
 
-	/* sizeof �Լ� : ����Ʈ ũ�⸦ �˷��� */
+	/* sizeof 함수 : 메모리의 크기 값(바이트)을 알려줌 */
 	int score[] = { 10, 20, 30, 40, 50, 60 };
 	int size = sizeof(score) / sizeof(score[0]);
 	// sizeof(score) : 24
